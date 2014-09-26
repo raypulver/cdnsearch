@@ -1,7 +1,7 @@
 {
   "name": "cdnsearch",
-  "version": "0.1.0",
-  "description": "A program to scrape cdnjs.com",
+  "version": "0.1.1",
+  "description": "A command line tool to search for the URL of a library hosted on cdnjs.com",
   "main": "index.js",
   "bin": {
     "cdnsearch": "./search.js"
@@ -30,5 +30,14 @@
     "mocha": "^1.21.4",
     "request-debug": "0.0.3",
     "sinon": "^1.10.3"
-  }
+  },
+  "keywords": [
+    "cdnjs",
+    "cdn",
+    "search",
+    "url",
+    "lookup",
+    "scrape",
+    "scraper"
+  ]
 }

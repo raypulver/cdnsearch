@@ -25,6 +25,7 @@ describe('cdnjs fetching module', function () {
   it('can retrieve detailed CDN links for all libraries starting with "jquery"', function () {
     cdnsearch('jquery%', true, function (list) {
       list.forEach(function (v) {
+        expect(v.title).to.match(/^jquery.*/);
         expect(v.cdn).to.have.length.above(1);
       });
     });
